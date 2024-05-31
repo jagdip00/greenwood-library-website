@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #6ab04c;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0c884a 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header h1 {
+    float: left;
+    margin-top: 10px;
+}
+
+main {
+    padding: 20px 0;
+    background: #f4f4f4;
+}
+
+.reviews {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.reviews h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.reviews p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.review {
+    margin-bottom: 20px;
+}
+
+.review h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.review p em {
+    font-size: 1em;
+    color: #555;
+}
+
+.review p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
